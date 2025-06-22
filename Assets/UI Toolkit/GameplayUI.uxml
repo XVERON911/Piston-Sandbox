@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/SlidersClass.uss?fileID=7433441132597879392&amp;guid=efa96eb91b0bb1748809f469c0ef3f53&amp;type=3#SlidersClass" />
+    <ui:VisualElement name="mainContainer" style="flex-grow: 1;">
+        <ui:VisualElement name="controlsBL" style="width: 50%; height: 50%; top: 50%; right: auto; left: 50%; flex-direction: column-reverse;">
+            <ui:Slider label="Throttle" value="0" high-value="10000" name="throttleSlider" fill="false" focusable="false" class="slider" />
+            <ui:Slider label="Torque" value="0" high-value="1000" name="torqueSlider" focusable="false" class="slider" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
